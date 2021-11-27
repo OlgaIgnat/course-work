@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">    
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/media.css">   
+
+</head>
+<body>
+    <header class="header"> 
+        <div class="container">      
+            <div class="header_top">                
+                    <div class="header_top_logo"><a href="#"><img src="images/logo.png" alt="Logo company"></a></div>
+                    <nav class="header_top_nav">                        
+                        <ul>
+                            <li><a href="#header_greeting"> Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#team">Contact</a></li>
+                        </ul>
+                    </nav> 
+                    <div class="hidden-menu">
+                        <input type="checkbox">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        
+                        <div class="header__toggle-menu" >
+                            <nav class="nav-toggle">
+                                <ul>
+                                    <li><a href="#header_greeting"> Home</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#team">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>                
+                    </div>                            
+            </div> 
+            <div class="header_greeting" id="header_greeting">        
+                <h4>Welcome to our studio!</h4>
+                <h2>It&#8217s nice to meet you</h2>
+                <button class="button">Tell me more</button>                     
+            </div>  
+        </div>         
+    </header>
+    <section  id="services" class="services">
+        <div class="container">
+            <h3>Services</h3>
+            <h6>Proin iaculis purus consequat sem cure.</h6>
+            <div class="services_list">
+                <div class="services_item">
+                    <i class="ico ico_basket"></i>
+                    <h5>E-Commerce</h5>
+                    <p>Proin iaculis purus consequat sem cure 
+                        digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p> 
+                </div>
+                <div class="services_item">
+                    <i class="ico ico_laptop"></i>
+                    <h5>Responsive Web</h5>
+                    <p>Proin iaculis purus consequat sem cure 
+                        digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p> 
+                </div>
+                <div class="services_item">
+                    <i class="ico ico_locked"></i>
+                    <h5>Web Security</h5>
+                    <p>Proin iaculis purus consequat sem cure 
+                        digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p> 
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section  id="portfolio" class="portfolio">
+        <div class="container">
+            <h3>Our portfolio</h3>
+            <h6>Proin iaculis purus consequat sem cure.</h6>
+            <div class="portfolio_list">  
+                <div class="portfolio_item">
+                    <div class="project"><img src="images/portfolio1.png" alt="project1"></div>
+                    <div class="title"><a href="#">Ebony & Ivory</a><span>Branding</span></div>
+                </div>
+                <div class="portfolio_item">
+                    <div class="project"><img src="images/portfolio2.png" alt="project2"></div>
+                    <div class="title"><a href="#">Smart Stationary</a><span>Print Design</span></div>
+                </div>   
+                <div class="portfolio_item">
+                    <div class="project"><img src="images/portfolio3.png" alt="project3"></div>
+                    <div class="title"><a href="#">Clever Poster</a><span>Print Design</span></div>
+                </div>
+                <div class="portfolio_item">    
+                    <div class="project"><img src="images/portfolio4.png" alt="project4"></div>
+                    <div class="title"><a href="#">Vinyl Record</a><span>Product Mock-Up</span></div>
+                </div>
+                <div class="portfolio_item">
+                    <div class="project"><img src="images/portfolio5.png" alt="project5"></div>
+                    <div class="title"><a href="#">Treehouse Template</a><span>Web Design</span></div>
+                </div>
+                <div class="portfolio_item">
+                    <div class="project"><img src="images/portfolio6.png" alt="project6"></div>
+                    <div class="title"><a href="#">Burned Logo</a><span>Branding</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h3>About us</h3>
+            <h6>Proin iaculis purus consequat sem cure.</h6>
+            <div class="about_list">
+                <div class="line_about"></div><!-- линия через блок-->
+
+                <div class="about_item">
+                    <div class="story right">
+                        <a href="#" >July 2010</a>
+                        <h5>Our Humble Beginnings</h5>
+                        <p>Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt. Proin 
+                            iaculis purus consequat sem cure digni 
+                            ssim. Donec porttitora entum suscipit.</p>
+                    </div>
+                    <img src="images/about_img1.png" alt="story1">
+                </div>
+                <div class="about_item ">
+                    <img class="two" src="images/about_img2.png" alt="story2">
+                    <div class="story left ">
+                       
+                        <a href="#" >January 2011</a>
+                        <h5>Facing Startup Battles</h5>
+                        <p>Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt. Proin 
+                            iaculis purus consequat sem cure digni 
+                            ssim. Donec porttitora entum suscipit aenean 
+                            rhoncus posuere odio in tincidunt.</p>
+                    </div>
+                  
+                </div>
+                <div class="about_item">
+                    <div class="story right">
+                       
+                        <a href="#" >December 2012</a>
+                        <h5>Enter The Dark Days</h5>
+                        <p >Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt. Proin 
+                            iaculis purus consequat sem cure digni.</p>
+                    </div>
+                    <img src="images/about_img3.png" alt="story3">
+                </div>
+                <div class="about_item">
+                    <img class="two" src="images/about_img4.png" alt="story4">
+                    <div class="story left">
+                        <a href="#" >February 2014</a>
+                        <h5>Our Triumph</h5>
+                        <p>Proin iaculis purus consequat sem cure 
+                            digni ssim. Donec porttitora entum suscipit 
+                            aenean rhoncus posuere odio in tincidunt. Proin 
+                            iaculis purus consequat sem cure digni 
+                            ssim. Donec porttitora entum suscipit aenean.</p>
+                    </div>
+                   
+                </div>
+                <a href="#">Our story continues <p>...</p></a>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <div class="container">
+            <h3>Our amazing team</h3>
+            <h6>Proin iaculis purus consequat sem cure.</h6>
+            <div class="team_gallery">
+                <div class="person">
+                    <div class="photo photo1"></div>
+                    <p class="name">Kimberly Thompson</p>
+                    <p >Marketer</p>
+                    <div class="contacts">
+                        <a href="#"><i class="ico_social ico_tw"></i></a><!-- Иконки только фоном!!!-->
+                        <a href="#"><i class="ico_social ico_fb"></i></a>
+                        <a href="#"><i class="ico_social ico_pint"></i></a>
+                    </div>
+                </div>
+                <div class="person">
+                    <div class="photo photo2"></div>
+                    <p class="name">Rico Massimo</p>
+                    <p>Coder</p>
+                    <div class="contacts">
+                        <a href="#"><i class="ico_social ico_tw"></i></a><!-- Иконки только фоном!!!-->
+                        <a href="#"><i class="ico_social ico_fb"></i></a>
+                        <a href="#"><i class="ico_social ico_google"></i></a>
+                    </div>
+                </div>
+                <div class="person">
+                    <div class="photo photo3"></div>
+                    <p class="name">Uku Mason</p>
+                    <p>Graphic Designer</p>
+                    <div class="contacts">                       
+                        <a href="#"><i class="ico_social ico_fb"></i></a>
+                        <a href="#"><i class="ico_social ico_pint"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+            <p class="person_info">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  
+            aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+        </div>
+    </section> 
+    <section class="company_logo"> 
+        <div class="container"> 
+            <div class="team_logo">
+                <a href="#"><img src="images/logo_env.png" alt="Envato"></a>
+                <a href="#"><img src="images/logo_wp.png" alt="WordPress"></a>
+                <a href="#"><img src="images/logo_tuts.png" alt="ae tuts+"></a>
+                <a href="#"><img src="images/logo_ml.png" alt="Microlancer"></a>
+            </div> 
+        </div>
+    </section> 
+    <footer class="footer">
+    
+        <div class="footer_top">
+            <div class="container">
+                <h3>Contact us</h3>
+                <h6>Proin iaculis purus consequat sem cure.</h6>
+                <form class="footer_form" method="POST" action="#">
+                    <div class="footer_form_left"> 
+                        <input type="text"  name="firstname" placeholder="your name*" required/> 
+                         <input type="email"  name="email" placeholder="your e-mail*" required/>
+                        <input type="text"  name="subject" placeholder=" subject"/> 
+                    </div>
+                    <div class="footer_form_right">             
+                        <textarea   name="message" placeholder="your message"></textarea>
+                    </div>    
+                </form>
+                <button class="button">Send message</button>
+            </div>
+        </div>
+        <div class="footer_contacts">
+            <div class="container">
+                <div class="footer_contacts_left">
+                   <p>&#169 Copyright 2014 FreebiesXpress.com</p>
+                </div>
+
+                    <a href="#"><i class="ico_social ico_tw_black"></i></a>
+                    <a href="#"><i class="ico_social ico_fb_black"></i></a>
+                    <a href="#"><i class="ico_social ico_pint_black"></i></a>
+                    <a href="#"><i class="ico_social ico_google_black"></i></a>
+                
+            </div>    
+        </div>
+    
+    </footer>
+</body>
+</html>

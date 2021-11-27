@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> 
+</head>
+<body>    
+    <div class="todo_list">
+        <header>            
+            <h1>My ToDoList</h1>
+            <img src="img/img1.png" alt="Notes">
+        </header>
+        <section class="todo_wraper">
+            <div class="todo_notes">
+                <div class="input_wraper">
+                     <input type="text" id="todo_input" placeholder="Write your notes">
+                </div>
+                <div class="button_wraper">                            
+                    <button class="button" onclick="createList()" >Add</button>
+                </div>
+            </div>      
+        </section>      
+    </div>
+    <script src="index.js"></script>
+  
+</body>
+</html>

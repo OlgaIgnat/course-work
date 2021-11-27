@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS 11</title> 
+    <link href="css/style.css" rel="stylesheet"> 
+     <!--<link rel="stylesheet" href="css/reset.css">--> 
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!--<script src="index.js"></script>-->
+</head>
+<body>
+    <h1>CONTACTS</h1>       
+    <section class="contacts_wraper">
+        <div class="contacts">
+            <form class="contacts_notes" id="contactForm">
+                <div class="input_wraper">
+                     <input type="text" id="inputName" placeholder="Name">
+                </div>
+                <div class="input_wraper">
+                    <input type="text" id="inputEmail" placeholder="E-mail">
+               </div>
+               <div class="input_wraper">
+                <input type="text" id="inputAddress" placeholder="Address">
+                </div>
+                <div class="input_wraper">
+                    <input type="text" id="inputPhone" placeholder="Phone">
+               </div>
+                <div class="button_wraper">                            
+                    <button type = "button" class="button" id="buttonCreateContact" onclick="getInfoForm()">Add contact</button>
+                                           
+                    <button type = "button" class="button" id="buttonShowContacts" onclick="clearContact()">Сlear contact</button>
+                </div>
+            </form>
+            <form class="contacts_notes_edit" id="contactFormEdit">
+                <div class="input_wraper_edit">
+                     <input type="text" id="inputName_edit" placeholder="Name">
+                </div>
+                <div class="input_wraper_edit">
+                    <input type="text" id="inputEmail_edit" placeholder="E-mail">
+               </div>
+               <div class="input_wraper">
+                <input type="text" id="inputAddress_edit" placeholder="Address">
+                </div>
+                <div class="input_wraper_edit">
+                    <input type="text" id="inputPhone_edit" placeholder="Phone">
+               </div>
+                <div class="button_wraper_edit">                            
+                    <button type = "button" class="button_edit" id="buttonEditContact" onclick="editNewContact()" >Edit contact</button>
+                </div>
+            </form>
+        </div>                            
+            <div class="contacts-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>E-mail</th>
+                            <th>Address</th>
+                            <th>Phone</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>     
+    </section>      
+   
+    <script src="index.js"></script>
+
+</body>
+</html>
